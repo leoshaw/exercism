@@ -1,4 +1,3 @@
-using System;
 using System.Linq;
 
 public class Bob
@@ -31,8 +30,7 @@ public class Bob
     private bool IsQuestion(string input)
     {
         // last character is a question mark, ignoring trailing spaces
-        input = input.Trim();
-        return input.LastIndexOf('?') == input.Length - 1;
+        return input.Trim().EndsWith("?");
     }
 
     private bool IsShouting(string input)
