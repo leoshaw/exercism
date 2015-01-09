@@ -46,7 +46,6 @@
     <Compile Include="bob\BobTest.cs" />
     <Compile Include="example\Example.cs" />
     <Compile Include="example\ExampleTests.cs" />
-    <Compile Include="leap\Year - Copy.cs" />
     <Compile Include="leap\Year.cs" />
     <Compile Include="leap\LeapTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
