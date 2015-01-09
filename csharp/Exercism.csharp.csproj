@@ -44,6 +44,8 @@
   <ItemGroup>
     <Compile Include="bob\Bob.cs" />
     <Compile Include="bob\BobTest.cs" />
+    <Compile Include="etl\ETL.cs" />
+    <Compile Include="etl\ETLTest.cs" />
     <Compile Include="example\Example.cs" />
     <Compile Include="example\ExampleTests.cs" />
     <Compile Include="leap\Year.cs" />
@@ -52,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bob\README.md" />
+    <None Include="etl\README.md" />
     <None Include="leap\README.md" />
     <None Include="packages.config" />
   </ItemGroup>
