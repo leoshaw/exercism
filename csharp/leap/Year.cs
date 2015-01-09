@@ -1,8 +1,6 @@
-using System;
-
 public class Year
 {
-    public static Boolean IsLeap(int i)
+    public static bool IsLeap(int i)
     {
         if (i % 4 != 0)
         {
